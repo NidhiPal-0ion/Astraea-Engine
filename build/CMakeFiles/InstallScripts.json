@@ -1,7 +1,0 @@
-{
-	"InstallScripts" : 
-	[
-		"/c/projectone/build/cmake_install.cmake"
-	],
-	"Parallel" : false
-}

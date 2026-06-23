@@ -1,1 +1,0 @@
-/c/msys64/ucrt64/bin/g++ -O3 -DNDEBUG -flto=auto -fno-fat-lto-objects -Wl,--enable-auto-import CMakeFiles/astraea_benchmarks.dir/benchmarks/benchmarks.cpp.o -o astraea_benchmarks.exe -Wl,--out-implib,libastraea_benchmarks.dll.a -Wl,--major-image-version,0,--minor-image-version,0  /c/msys64/ucrt64/lib/libbenchmark.dll.a

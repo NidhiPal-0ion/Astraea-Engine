@@ -1,5 +1,0 @@
-if(EXISTS "/c/projectone/build/astraea_tests[1]_tests.cmake")
-  include("/c/projectone/build/astraea_tests[1]_tests.cmake")
-else()
-  add_test(astraea_tests_NOT_BUILT astraea_tests_NOT_BUILT)
-endif()

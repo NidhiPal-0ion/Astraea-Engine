@@ -1,1 +1,0 @@
-/c/msys64/ucrt64/bin/g++ -flto=auto -fno-fat-lto-objects -Wl,--enable-auto-import CMakeFiles/boo.dir/main.cpp.o -o boo.exe -Wl,--out-implib,libboo.dll.a -Wl,--major-image-version,0,--minor-image-version,0  libfoo.a

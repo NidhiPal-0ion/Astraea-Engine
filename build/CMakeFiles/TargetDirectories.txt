@@ -1,5 +1,0 @@
-/c/projectone/build/CMakeFiles/astraea_tests.dir
-/c/projectone/build/CMakeFiles/astraea_benchmarks.dir
-/c/projectone/build/CMakeFiles/test.dir
-/c/projectone/build/CMakeFiles/edit_cache.dir
-/c/projectone/build/CMakeFiles/rebuild_cache.dir
