@@ -1,0 +1,1 @@
+/c/msys64/ucrt64/bin/g++ -O3 -DNDEBUG -flto=auto -fno-fat-lto-objects -Wl,--enable-auto-import CMakeFiles/astraea_tests.dir/tests/unit_tests.cpp.o -o astraea_tests.exe -Wl,--out-implib,libastraea_tests.dll.a -Wl,--major-image-version,0,--minor-image-version,0  /c/msys64/ucrt64/lib/libgtest_main.dll.a /c/msys64/ucrt64/lib/libgtest.dll.a

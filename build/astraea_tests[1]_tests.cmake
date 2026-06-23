@@ -1,0 +1,5 @@
+add_test([=[SPSCQueueTest.SingleThreadedBasic]=]  /c/projectone/build/astraea_tests.exe [==[--gtest_filter=SPSCQueueTest.SingleThreadedBasic]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[SPSCQueueTest.SingleThreadedBasic]=]  PROPERTIES WORKING_DIRECTORY /c/projectone/build SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+add_test([=[SPSCQueueTest.ConcurrentPushPop]=]  /c/projectone/build/astraea_tests.exe [==[--gtest_filter=SPSCQueueTest.ConcurrentPushPop]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[SPSCQueueTest.ConcurrentPushPop]=]  PROPERTIES WORKING_DIRECTORY /c/projectone/build SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+set(  astraea_tests_TESTS SPSCQueueTest.SingleThreadedBasic SPSCQueueTest.ConcurrentPushPop)
